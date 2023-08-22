@@ -1,5 +1,5 @@
 html {
-    background: radial-gradient(farthest-corner at right top, #21a09d, #06182d);
+    background: radial-gradient(farthest-corner at right top, #f71d66, #1c9e93);
     font-family: "Roboto", cursive;
     height: 100%;
 }
@@ -18,7 +18,7 @@ html {
     padding: 4em 2em 2em;
     box-sizing: border-box;
     display: flex;
-    background: #c5965f;
+    background: #d6ac7c;
     border-radius: 10px;
     gap: 2em;
 }
@@ -28,9 +28,9 @@ html {
     max-width: 170px;
     height: 180px;
     padding-top: 80px;
-    background-color: #d84736;
-    box-shadow: inset 0 6px 0 2px #e64a3e, 0 -93px 0 -77px #3b1045,
-        0 -93px 0 -72px #d84736, 0 -93px 0 -68px #3b1045;
+    background-color: #e9445a;
+    box-shadow: inset 0 6px 0 2px #eb776d, 0 -93px 0 -77px #3b1045,
+        0 -93px 0 -72px #eb776d, 0 -93px 0 -68px #3b1045;
     background-image: linear-gradient(
         to right,
         transparent 5px,
@@ -41,8 +41,8 @@ html {
         transparent 20px,
         transparent 20px,
         transparent 86px,
-        #c1382e 45px,
-        #c1382e 230px,
+        #db6f67 45px,
+        #db6f67 230px,
         transparent 25px,
         transparent 172px
     );
@@ -92,30 +92,30 @@ html {
         ),
         linear-gradient(
             to right,
-            #af342c 10px,
-            #af342c 10px,
+            #db9894 10px,
+            #db9894 10px,
             transparent 10px,
             transparent 16px,
-            #af342c 9px,
-            #af342c 50px
+            #db9894 9px,
+            #db9894 50px
         ),
         linear-gradient(
             to bottom,
-            #af342c 8px,
-            #af342c 16px,
+            #ce473d 8px,
+            #d4493f 16px,
             #491033 8px,
             #491033 30px,
-            #af342c 20px,
-            #af342c 72px,
-            #af342c 10px,
-            #af342c 57px,
-            #af342c 5%
+            #df493e 20px,
+            #ca4036 72px,
+            #c53b31 10px,
+            #cc453b 57px,
+            #d6483e 5%
         );
     margin-left: 22px;
     margin-top: 58px;
     border: 4px solid #491033;
     border-radius: 11px;
-    box-shadow: 0 4px 0 0 #c1382e, inset 0px 4px 1px 0 #c03527;
+    box-shadow: 0 4px 0 0 #d1665f, inset 0px 4px 1px 0 #d66c62;
     content: "||";
     color: transparent;
     font-family: Comic Sans MS;
@@ -128,7 +128,7 @@ html {
 .mochila:after {
     margin-left: 67px;
     margin-top: -30px;
-    background: #cca16a;
+    background: #ffe9cd;
     width: 26px;
     height: 26px;
     border: 3px solid #491033;
@@ -146,7 +146,7 @@ html {
     margin: 0.5em 0 1em;
     padding: 1em 0.5em;
     border-radius: 10px;
-    border: 2px solid #40112d;
+    border: 2px solid #691d4b;
 }
 
 .adicionar label {
@@ -185,6 +185,6 @@ html {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: #c5965f;
+    background: #ebc294;
     font-weight: 400;
 }
