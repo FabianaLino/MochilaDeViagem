@@ -4,7 +4,7 @@
 
 ##### A partir de um projeto Html e CSS criado pela Tricia Katz https://codepen.io/triciaakatz. Desenvolvi e personalizei esse projeto com o intuito de me familiarizar e solidificar os conhecimentos de JavaScript. Com ele aprendi a trabalhar e armazenar os dados no navegador, tratar os dados com JSON.stringfy e JSON.parse e interagir com o localStorage. Sigo buscando novos desafios e aprimorando minhas habilidades a cada novo projeto.
 
-##### Segue abaixo layout da aplicação:
+## Segue abaixo layout da aplicação:
 
 ![Alt text](images/layoutfixo1.PNG)
 ![Alt text](images/layoutfixo2.PNG)
