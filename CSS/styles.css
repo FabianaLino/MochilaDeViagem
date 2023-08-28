@@ -11,6 +11,13 @@ html {
     gap: 2em;
 }
 
+// media query do conteudo para mobile //
+@media (max-width: 480px) {
+    padding: 30px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
 .principal {
     flex-grow: 1;
     flex-basis: auto;
@@ -21,6 +28,14 @@ html {
     background: #d6ac7c;
     border-radius: 10px;
     gap: 2em;
+}
+
+// media query do bloco principal para mobile //
+@media (max-width: 480px) {
+    .principal {
+        min-width: 350px;
+        min-height: 450px;
+    }
 }
 
 .mochila {
