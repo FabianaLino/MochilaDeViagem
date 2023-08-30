@@ -11,19 +11,6 @@ html {
     gap: 2em;
 }
 
-// media query do conteudo para mobile //
-@media (max-width: 480px) {
-    padding: 30px 10px 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: colum;
-    flex-wrap: nowrap;
-    align-content: stretch;
-    justify-content: center;
-    align-items: stretch;
-    max-width: 210px;
-}
-
 .principal {
     flex-grow: 1;
     flex-basis: auto;
@@ -34,15 +21,6 @@ html {
     background: #d6ac7c;
     border-radius: 10px;
     gap: 2em;
-}
-
-// media query do bloco principal para mobile //
-@media (max-width: 480px) {
-    .principal {
-        min-width: 60px;
-        min-height: 10px;
-        padding: 10px 10px 5px;
-    }
 }
 
 .mochila {
@@ -185,14 +163,6 @@ html {
     margin: 0;
     padding: 0;
 }
-//media query para bloco lista versão mobile//
-@media (max-width: 480px) {
-    .lista {
-        display: none;
-        align-items: center;
-        padding: 0;
-    }
-}
 
 .item {
     list-style: none;
@@ -207,12 +177,6 @@ html {
     gap: 1em;
     font-size: 20px;
 }
-//media query do bloco item para mobile//
-@media (max-width: 480px) {
-    padding: 10px;
-    gap: 5px;
-    font-size: 15px;
-}
 
 .item strong {
     border-radius: 50%;
@@ -223,4 +187,36 @@ html {
     height: 40px;
     background: #ebc294;
     font-weight: 400;
+}
+
+/*Styles Media para Mobile */
+@media (max-width: 768px) {
+    .conteudo {
+        padding: 30px 15px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principal {
+        min-width: 100%;
+        padding: 1em;
+        font-size: 25px;
+    }
+
+    .mochila {
+        display: none;
+    }
+
+    .adicionar input {
+        width: 100%;
+        font-size: 23px;
+        margin: 10px 0 10px;
+        padding: 10px 0 10px;
+    }
+
+    .item {
+        padding: 5px;
+        font-size: 24px;
+        justify-content: space-between;
+    }
 }

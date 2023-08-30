@@ -13,6 +13,13 @@ form.addEventListener("submit", (evento) => {
     const nome = evento.target.elements["nome"];
     const quantidade = evento.target.elements["quantidade"];
 
+    if (nome.value.trim() === "" || quantidade.value.trim() === "") {
+        alert(
+            "Por favor, preencha todos os campos antes de adicionar um item."
+        );
+        return;
+    }
+
     // Variavel const para procurar se existe o elemento no array de itens //
     const existe = itens.find((elemento) => elemento.nome === nome.value);
 
