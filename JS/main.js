@@ -20,6 +20,13 @@ form.addEventListener("submit", (evento) => {
         return;
     }
 
+    // Verifique se a quantidade é um número válido e maior que zero
+    const quantidadeNumerica = parseFloat(quantidade.value);
+    if (isNaN(quantidadeNumerica) || quantidadeNumerica <= 0) {
+        alert("A quantidade deve ser um número válido maior que zero.");
+        return;
+    }
+
     // Variavel const para procurar se existe o elemento no array de itens //
     const existe = itens.find((elemento) => elemento.nome === nome.value);
 
